@@ -1,0 +1,31 @@
+{
+  "AR12BVFAAWKNAZ": {
+    "Compressor": "DB92-000000",
+    "Tubo de descarga": "DB92-000001",
+    "Serpentina do evaporador": "DB92-000002",
+    "Serpentina do condensador": "DB92-000003",
+    "EEPROM": "DB92-000004",
+    "Placa da condensadora": "DB92-000005",
+    "Placa do evaporador": "DB92-000006"
+  },
+  "AR09BVFAAWKNAZ": {
+    "Compressor": "DB92-00000A",
+    "Tubo de descarga": "DB92-00000B",
+    "Serpentina do evaporador": "DB92-00000C",
+    "Serpentina do condensador": "DB92-00000D",
+    "EEPROM": "DB92-00000E",
+    "Placa da condensadora": "DB92-00000F",
+    "Placa do evaporador": "DB92-00000G"
+  },
+  "AG092CVADAFNAZ": {
+    "Compressor": "DC93-11111A",
+    "Tubo de descarga": "DC93-11111B",
+    "Serpentina do evaporador": "DC93-11111C",
+    "Serpentina do condensador": "DC93-11111D"
+  },
+  "AQ182CWBANXAZ": {
+    "Placa principal": "DE94-22222A",
+    "Motor ventilador": "DE94-22222B",
+    "Sensor de temperatura": "DE94-22222C"
+  }
+}
