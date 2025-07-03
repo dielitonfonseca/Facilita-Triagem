@@ -8,11 +8,13 @@ function Autocomplete() {
   const [inputValue, setInputValue] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [selectedModel, setSelectedModel] = useState(null);
+  const [copiedCode, setCopiedCode] = useState(null);
 
   const handleInputChange = (e) => {
     const value = e.target.value;
     setInputValue(value);
-    setSelectedModel(null); // Limpa o modelo selecionado ao digitar
+    setSelectedModel(null);
+    setCopiedCode(null);
 
     if (value.length > 0) {
       const filteredSuggestions = modelos.filter(modelo =>
@@ -28,6 +30,13 @@ function Autocomplete() {
     setInputValue(modelo);
     setSelectedModel(modelo);
     setSuggestions([]);
+  };
+
+  const handleCopyClick = (codigoPeca) => {
+    navigator.clipboard.writeText(codigoPeca).then(() => {
+      setCopiedCode(codigoPeca);
+      setTimeout(() => setCopiedCode(null), 2000);
+    });
   };
 
   const pecasDoModelo = selectedModel ? pecasData[selectedModel] : null;
@@ -63,7 +72,15 @@ function Autocomplete() {
             {Object.entries(pecasDoModelo).map(([nomePeca, codigoPeca]) => (
               <li key={codigoPeca}>
                 <span className="part-name">{nomePeca}:</span>
-                <span className="part-code">{codigoPeca}</span>
+                <div className="part-code-container">
+                  <span className="part-code">{codigoPeca}</span>
+                  <button
+                    onClick={() => handleCopyClick(codigoPeca)}
+                    className="copy-button"
+                  >
+                    {copiedCode === codigoPeca ? 'Copiado!' : 'Copiar'}
+                  </button>
+                </div>
               </li>
             ))}
           </ul>

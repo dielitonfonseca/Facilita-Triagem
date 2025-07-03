@@ -1,12 +1,12 @@
 {
-  "AR12BVFAAWKNAZ": {
-    "Compressor": "DB92-000000",
-    "Tubo de descarga": "DB92-000001",
-    "Serpentina do evaporador": "DB92-000002",
-    "Serpentina do condensador": "DB92-000003",
-    "EEPROM": "DB92-000004",
-    "Placa da condensadora": "DB92-000005",
-    "Placa do evaporador": "DB92-000006"
+  "AR12CVFAMWKNAZ": {
+    "Compressor": "UB1AR1090FJ6SB",
+    "Tubo de descarga": "DB96-26177A",
+    "Serpentina do evaporador": "DB96-24831H",
+    "Serpentina do condensador": "DB96-24365B",
+    "EEPROM": "DB82-07332A",
+    "Placa da condensadora": "DB92-05107J",
+    "Placa do evaporador": "DB92-05043D"
   },
   "AR09BVFAAWKNAZ": {
     "Compressor": "DB92-00000A",
