@@ -493,5 +493,27 @@
     "Placa do evaporador": "DB92-05043D",
     "Motor ventilador EVAP": "DB31-00636A",
     "Motor ventilador COND": "DB31-00693A"
+  },
+  "AR09DYFZAWKXAZ": {
+   "Compressor": "DB95-05990A",
+    "Tubo de descarga": "DB96-26872A",
+    "Serpentina do evaporador": "DB96-26644A",
+    "Serpentina do condensador": "DB96-19463B",
+    "EEPROM": " DB82-08583A (AUTORIZADO Q&A 14120713)",
+    "Placa da condensadora": "DB92-05585C OU DB92-05585B (AUTORIZADO Q&A 14120713)",
+    "Placa do evaporador": "DB92-05200B",
+    "Motor ventilador EVAP": "DB31-00636A",
+    "Motor ventilador COND": "DB31-00693A"
+  },
+  "AR09DYFZAWKNAZ": {
+    "Compressor": "DB95-05990A",
+    "Tubo de descarga": "DB96-26872A",
+    "Serpentina do evaporador": "DB96-26644A",
+    "Serpentina do condensador": "DB96-19463B",
+    "EEPROM": " DB82-08583A (AUTORIZADO Q&A 14120713)",
+    "Placa da condensadora": "DB92-05585C OU DB92-05585B (AUTORIZADO Q&A 14120713)",
+    "Placa do evaporador": "DB92-05200B",
+    "Motor ventilador EVAP": "DB31-00636A",
+    "Motor ventilador COND": "DB31-00693A"
   }
 }
